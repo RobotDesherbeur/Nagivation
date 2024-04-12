@@ -1,0 +1,4 @@
+Invoking command in '/home/navigation/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/serial -- -j4 -l4
+Invoked command in '/home/navigation/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/serial -- -j4 -l4
+Invoking command in '/home/navigation/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/serial
+Invoked command in '/home/navigation/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/serial

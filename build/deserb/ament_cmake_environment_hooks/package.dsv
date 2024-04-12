@@ -1,0 +1,4 @@
+source;share/deserb/local_setup.bash
+source;share/deserb/local_setup.dsv
+source;share/deserb/local_setup.sh
+source;share/deserb/local_setup.zsh

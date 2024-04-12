@@ -1,0 +1,994 @@
+[0.000000] (-) TimerEvent: {}
+[0.000996] (deserb) JobQueued: {'identifier': 'deserb', 'dependencies': OrderedDict()}
+[0.001177] (nav2_gps_waypoint_follower_demo) JobQueued: {'identifier': 'nav2_gps_waypoint_follower_demo', 'dependencies': OrderedDict()}
+[0.001309] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001433] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/navigation/install/serial')])}
+[0.004790] (serial) JobStarted: {'identifier': 'serial'}
+[0.099113] (-) TimerEvent: {}
+[0.199729] (-) TimerEvent: {}
+[0.301761] (-) TimerEvent: {}
+[0.404853] (-) TimerEvent: {}
+[0.475511] (deserb) JobStarted: {'identifier': 'deserb'}
+[0.505000] (-) TimerEvent: {}
+[0.606843] (-) TimerEvent: {}
+[0.709591] (-) TimerEvent: {}
+[0.810908] (-) TimerEvent: {}
+[0.870060] (nav2_gps_waypoint_follower_demo) JobStarted: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.911071] (-) TimerEvent: {}
+[1.013066] (-) TimerEvent: {}
+[1.116888] (-) TimerEvent: {}
+[1.218087] (-) TimerEvent: {}
+[1.320544] (-) TimerEvent: {}
+[1.345880] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[1.346797] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/navigation/src/serial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/navigation/install/serial'], 'cwd': '/home/navigation/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/serial'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[1.354851] (deserb) JobProgress: {'identifier': 'deserb', 'progress': 'cmake'}
+[1.355573] (deserb) Command: {'cmd': ['/usr/bin/cmake', '/home/navigation/src/deserb', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/navigation/install/deserb'], 'cwd': '/home/navigation/build/deserb', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/deserb'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[1.420874] (-) TimerEvent: {}
+[1.521665] (-) TimerEvent: {}
+[1.567927] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.584942] (deserb) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.621820] (-) TimerEvent: {}
+[1.723280] (-) TimerEvent: {}
+[1.803139] (deserb) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.804100] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.821157] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.823403] (-) TimerEvent: {}
+[1.827315] (deserb) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.923581] (-) TimerEvent: {}
+[2.024294] (-) TimerEvent: {}
+[2.106218] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.115889] (deserb) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.124438] (-) TimerEvent: {}
+[2.142335] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.143181] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.146107] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.149864] (deserb) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.150730] (deserb) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.152121] (deserb) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.158037] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.163810] (deserb) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.224642] (-) TimerEvent: {}
+[2.325350] (-) TimerEvent: {}
+[2.426071] (-) TimerEvent: {}
+[2.471633] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.480387] (deserb) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.507132] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.508223] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.510160] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.515321] (deserb) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.516224] (deserb) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.518218] (deserb) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.526221] (-) TimerEvent: {}
+[2.528691] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.536024] (deserb) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.626386] (-) TimerEvent: {}
+[2.729762] (-) TimerEvent: {}
+[2.832783] (-) TimerEvent: {}
+[2.935267] (-) TimerEvent: {}
+[3.039267] (-) TimerEvent: {}
+[3.143708] (-) TimerEvent: {}
+[3.235650] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.244047] (-) TimerEvent: {}
+[3.247228] (deserb) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.344306] (-) TimerEvent: {}
+[3.445184] (-) TimerEvent: {}
+[3.540200] (serial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.544171] (deserb) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.545301] (-) TimerEvent: {}
+[3.647457] (-) TimerEvent: {}
+[3.749923] (-) TimerEvent: {}
+[3.781825] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[3.782423] (deserb) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.824460] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[3.840173] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.847120] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.850045] (-) TimerEvent: {}
+[3.952613] (-) TimerEvent: {}
+[4.054267] (-) TimerEvent: {}
+[4.130148] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.130998] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.154449] (-) TimerEvent: {}
+[4.255184] (-) TimerEvent: {}
+[4.331792] (deserb) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.352428] (deserb) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.355413] (-) TimerEvent: {}
+[4.356987] (deserb) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.360508] (deserb) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.372582] (deserb) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.380473] (deserb) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.395228] (deserb) StdoutLine: {'line': b'-- Generating done\n'}
+[4.412920] (deserb) StdoutLine: {'line': b'-- Build files have been written to: /home/navigation/build/deserb\n'}
+[4.413510] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.413975] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.416346] (deserb) CommandEnded: {'returncode': 0}
+[4.418594] (deserb) JobProgress: {'identifier': 'deserb', 'progress': 'build'}
+[4.421646] (deserb) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navigation/build/deserb', '--', '-j4', '-l4'], 'cwd': '/home/navigation/build/deserb', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/deserb'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[4.455641] (-) TimerEvent: {}
+[4.556434] (-) TimerEvent: {}
+[4.559769] (deserb) CommandEnded: {'returncode': 0}
+[4.631498] (deserb) JobProgress: {'identifier': 'deserb', 'progress': 'install'}
+[4.656673] (-) TimerEvent: {}
+[4.661042] (deserb) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/navigation/build/deserb'], 'cwd': '/home/navigation/build/deserb', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/deserb'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[4.690779] (deserb) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.692263] (deserb) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.694379] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/config/deserb_config.rviz\n'}
+[4.723029] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/config/empty.yaml\n'}
+[4.751346] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[4.756882] (-) TimerEvent: {}
+[4.781897] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/config/joystick.yaml\n'}
+[4.811135] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/config/my_controllers.yaml\n'}
+[4.841278] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/config/twist_mux.yaml\n'}
+[4.857078] (-) TimerEvent: {}
+[4.870625] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/cameras.xacro\n'}
+[4.871432] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.899336] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/depth_camera.xacro\n'}
+[4.922609] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[4.928401] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/gazebo_control.xacro\n'}
+[4.930381] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/navigation/build/serial\n'}
+[4.949468] (serial) CommandEnded: {'returncode': 0}
+[4.951353] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[4.952391] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navigation/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/navigation/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/serial'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[4.957634] (-) TimerEvent: {}
+[4.959622] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/gps.xacro\n'}
+[5.001786] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/imu.xacro\n'}
+[5.030975] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/lidar.xacro\n'}
+[5.057872] (-) TimerEvent: {}
+[5.060019] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/robot.urdf.xacro\n'}
+[5.108539] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/robot_core_simple.xacro\n'}
+[5.138206] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[5.142586] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[5.158055] (-) TimerEvent: {}
+[5.160393] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/description/ros2_control.xacro\n'}
+[5.175363] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[5.194128] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[5.226919] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/launch/__pycache__/launch_sim.launch.cpython-310.pyc\n'}
+[5.258250] (-) TimerEvent: {}
+[5.302034] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/launch/joystick.launch.py\n'}
+[5.309360] (nav2_gps_waypoint_follower_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/navigation/build/nav2_gps_waypoint_follower_demo/build', '--no-deps', 'install_data'], 'cwd': '/home/navigation/build/nav2_gps_waypoint_follower_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'nano', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/navigation/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/navigation/install:/home/deserb/install', 'ROS_DISTRO': 'humble', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/navigation/build/nav2_gps_waypoint_follower_demo', 'PYTHONPATH': '/home/navigation/build/nav2_gps_waypoint_follower_demo/prefix_override:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb'}, 'shell': False}
+[5.358624] (-) TimerEvent: {}
+[5.407912] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/launch/launch_robot.launch.py\n'}
+[5.458596] (-) TimerEvent: {}
+[5.494131] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/launch/launch_sim.launch.py\n'}
+[5.558772] (-) TimerEvent: {}
+[5.563193] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/launch/rsp.launch.py\n'}
+[5.626879] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/cone.world\n'}
+[5.658950] (-) TimerEvent: {}
+[5.702176] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/empty.world\n'}
+[5.759136] (-) TimerEvent: {}
+[5.783327] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/farm.world\n'}
+[5.849161] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/sonoma_raceway.world\n'}
+[5.859318] (-) TimerEvent: {}
+[5.926725] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/ament_index/resource_index/package_run_dependencies/deserb\n'}
+[5.959533] (-) TimerEvent: {}
+[6.008716] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/ament_index/resource_index/parent_prefix_path/deserb\n'}
+[6.059720] (-) TimerEvent: {}
+[6.087616] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/environment/ament_prefix_path.sh\n'}
+[6.159903] (-) TimerEvent: {}
+[6.168701] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/environment/ament_prefix_path.dsv\n'}
+[6.235667] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/environment/path.sh\n'}
+[6.260100] (-) TimerEvent: {}
+[6.303571] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/environment/path.dsv\n'}
+[6.360293] (-) TimerEvent: {}
+[6.377136] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.bash\n'}
+[6.450374] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.sh\n'}
+[6.460482] (-) TimerEvent: {}
+[6.527041] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.zsh\n'}
+[6.560678] (-) TimerEvent: {}
+[6.604708] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.dsv\n'}
+[6.660879] (-) TimerEvent: {}
+[6.671460] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/package.dsv\n'}
+[6.761040] (-) TimerEvent: {}
+[6.786135] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/ament_index/resource_index/packages/deserb\n'}
+[6.822031] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/cmake/deserbConfig.cmake\n'}
+[6.855555] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/cmake/deserbConfig-version.cmake\n'}
+[6.861215] (-) TimerEvent: {}
+[6.933410] (deserb) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/deserb/share/deserb/package.xml\n'}
+[6.961395] (-) TimerEvent: {}
+[7.016857] (deserb) CommandEnded: {'returncode': 0}
+[7.063752] (-) TimerEvent: {}
+[7.169899] (-) TimerEvent: {}
+[7.274269] (-) TimerEvent: {}
+[7.377433] (-) TimerEvent: {}
+[7.479824] (-) TimerEvent: {}
+[7.582598] (-) TimerEvent: {}
+[7.685152] (-) TimerEvent: {}
+[7.787559] (-) TimerEvent: {}
+[7.890422] (-) TimerEvent: {}
+[7.933777] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running develop\n'}
+[7.935353] (nav2_gps_waypoint_follower_demo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.935991] (nav2_gps_waypoint_follower_demo) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.945447] (nav2_gps_waypoint_follower_demo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.946079] (nav2_gps_waypoint_follower_demo) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.995786] (-) TimerEvent: {}
+[8.097586] (-) TimerEvent: {}
+[8.198837] (-) TimerEvent: {}
+[8.301842] (-) TimerEvent: {}
+[8.321057] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[8.402039] (-) TimerEvent: {}
+[8.502879] (-) TimerEvent: {}
+[8.605794] (-) TimerEvent: {}
+[8.682555] (deserb) JobEnded: {'identifier': 'deserb', 'rc': 0}
+[8.705984] (-) TimerEvent: {}
+[8.807816] (-) TimerEvent: {}
+[8.910022] (-) TimerEvent: {}
+[9.012883] (-) TimerEvent: {}
+[9.115511] (-) TimerEvent: {}
+[9.218411] (-) TimerEvent: {}
+[9.321250] (-) TimerEvent: {}
+[9.424037] (-) TimerEvent: {}
+[9.524952] (-) TimerEvent: {}
+[9.626871] (-) TimerEvent: {}
+[9.648584] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running egg_info\n'}
+[9.649985] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating nav2_gps_waypoint_follower_demo.egg-info\n'}
+[9.652085] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing nav2_gps_waypoint_follower_demo.egg-info/PKG-INFO\n'}
+[9.654305] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing dependency_links to nav2_gps_waypoint_follower_demo.egg-info/dependency_links.txt\n'}
+[9.656330] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing entry points to nav2_gps_waypoint_follower_demo.egg-info/entry_points.txt\n'}
+[9.658024] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing requirements to nav2_gps_waypoint_follower_demo.egg-info/requires.txt\n'}
+[9.659500] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'writing top-level names to nav2_gps_waypoint_follower_demo.egg-info/top_level.txt\n'}
+[9.661601] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b"writing manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'\n"}
+[9.673772] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b"reading manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'\n"}
+[9.679575] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b"writing manifest file 'nav2_gps_waypoint_follower_demo.egg-info/SOURCES.txt'\n"}
+[9.688068] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running build_ext\n'}
+[9.690293] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Creating /home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages/nav2-gps-waypoint-follower-demo.egg-link (link to .)\n'}
+[9.696002] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installing gps_waypoint_logger script to /home/navigation/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo\n'}
+[9.697959] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installing interactive_waypoint_follower script to /home/navigation/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo\n'}
+[9.699737] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installing logged_waypoint_follower script to /home/navigation/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo\n'}
+[9.701546] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installing read_db script to /home/navigation/install/nav2_gps_waypoint_follower_demo/lib/nav2_gps_waypoint_follower_demo\n'}
+[9.703846] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'\n'}
+[9.704708] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'Installed /home/navigation/build/nav2_gps_waypoint_follower_demo\n'}
+[9.706132] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'running install_data\n'}
+[9.707773] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/ament_index\n'}
+[9.709024] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index\n'}
+[9.710270] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages\n'}
+[9.711633] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying resource/nav2_gps_waypoint_follower_demo -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/ament_index/resource_index/packages\n'}
+[9.713534] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying package.xml -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo\n'}
+[9.715385] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[9.716888] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/ggazebo_gps_world.launch.py -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[9.718638] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/dual_ekf_navsat.launch.py -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[9.721638] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/gazebo_gps_world.launch.py -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[9.723873] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/gps_waypoint_follower.launch.py -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[9.726168] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying launch/mapviz.launch.py -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/launch\n'}
+[9.727002] (-) TimerEvent: {}
+[9.729899] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[9.731433] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/gps_wpf_demo.mvc -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[9.735477] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/nav2_no_map_params.yaml -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[9.738142] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/dual_ekf_navsat_params.yaml -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[9.740655] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying config/demo_waypoints.yaml -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/config\n'}
+[9.742964] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf\n'}
+[9.744448] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying urdf/turtlebot3_waffle_gps.urdf -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/urdf\n'}
+[9.747174] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds\n'}
+[9.748578] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying worlds/sonoma_raceway.world -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/worlds\n'}
+[9.750896] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models\n'}
+[9.752124] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'creating /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps\n'}
+[9.753683] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying models/turtlebot_waffle_gps/model.sdf -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps\n'}
+[9.756560] (nav2_gps_waypoint_follower_demo) StdoutLine: {'line': b'copying models/turtlebot_waffle_gps/model.config -> /home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/models/turtlebot_waffle_gps\n'}
+[9.827208] (-) TimerEvent: {}
+[9.933013] (nav2_gps_waypoint_follower_demo) CommandEnded: {'returncode': 0}
+[9.934308] (-) TimerEvent: {}
+[10.035619] (-) TimerEvent: {}
+[10.138577] (-) TimerEvent: {}
+[10.241689] (-) TimerEvent: {}
+[10.344889] (-) TimerEvent: {}
+[10.446795] (-) TimerEvent: {}
+[10.491919] (nav2_gps_waypoint_follower_demo) JobEnded: {'identifier': 'nav2_gps_waypoint_follower_demo', 'rc': 0}
+[10.547097] (-) TimerEvent: {}
+[10.648895] (-) TimerEvent: {}
+[10.751439] (-) TimerEvent: {}
+[10.756301] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[10.852665] (-) TimerEvent: {}
+[10.955236] (-) TimerEvent: {}
+[10.982613] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[11.052979] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[11.055416] (-) TimerEvent: {}
+[11.156344] (-) TimerEvent: {}
+[11.258204] (-) TimerEvent: {}
+[11.360680] (-) TimerEvent: {}
+[11.463297] (-) TimerEvent: {}
+[11.565712] (-) TimerEvent: {}
+[11.668496] (-) TimerEvent: {}
+[11.770889] (-) TimerEvent: {}
+[11.873707] (-) TimerEvent: {}
+[11.976180] (-) TimerEvent: {}
+[12.076947] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[12.077625] (-) TimerEvent: {}
+[12.179769] (-) TimerEvent: {}
+[12.281526] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[12.282193] (-) TimerEvent: {}
+[12.384342] (-) TimerEvent: {}
+[12.485186] (-) TimerEvent: {}
+[12.585856] (-) TimerEvent: {}
+[12.611943] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[12.686038] (-) TimerEvent: {}
+[12.786764] (-) TimerEvent: {}
+[12.887486] (-) TimerEvent: {}
+[12.919670] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[12.987701] (-) TimerEvent: {}
+[13.088396] (-) TimerEvent: {}
+[13.189105] (-) TimerEvent: {}
+[13.289802] (-) TimerEvent: {}
+[13.390507] (-) TimerEvent: {}
+[13.491212] (-) TimerEvent: {}
+[13.591924] (-) TimerEvent: {}
+[13.692643] (-) TimerEvent: {}
+[13.793360] (-) TimerEvent: {}
+[13.894080] (-) TimerEvent: {}
+[13.994816] (-) TimerEvent: {}
+[14.095532] (-) TimerEvent: {}
+[14.196238] (-) TimerEvent: {}
+[14.296958] (-) TimerEvent: {}
+[14.397668] (-) TimerEvent: {}
+[14.498386] (-) TimerEvent: {}
+[14.599098] (-) TimerEvent: {}
+[14.699860] (-) TimerEvent: {}
+[14.800618] (-) TimerEvent: {}
+[14.901412] (-) TimerEvent: {}
+[15.002115] (-) TimerEvent: {}
+[15.102795] (-) TimerEvent: {}
+[15.203514] (-) TimerEvent: {}
+[15.304265] (-) TimerEvent: {}
+[15.405067] (-) TimerEvent: {}
+[15.505767] (-) TimerEvent: {}
+[15.606544] (-) TimerEvent: {}
+[15.707318] (-) TimerEvent: {}
+[15.808062] (-) TimerEvent: {}
+[15.908868] (-) TimerEvent: {}
+[16.009555] (-) TimerEvent: {}
+[16.110244] (-) TimerEvent: {}
+[16.210939] (-) TimerEvent: {}
+[16.311636] (-) TimerEvent: {}
+[16.412359] (-) TimerEvent: {}
+[16.513732] (-) TimerEvent: {}
+[16.614406] (-) TimerEvent: {}
+[16.715135] (-) TimerEvent: {}
+[16.815898] (-) TimerEvent: {}
+[16.916620] (-) TimerEvent: {}
+[17.017387] (-) TimerEvent: {}
+[17.118094] (-) TimerEvent: {}
+[17.218789] (-) TimerEvent: {}
+[17.319474] (-) TimerEvent: {}
+[17.420160] (-) TimerEvent: {}
+[17.520861] (-) TimerEvent: {}
+[17.621551] (-) TimerEvent: {}
+[17.722240] (-) TimerEvent: {}
+[17.822948] (-) TimerEvent: {}
+[17.923652] (-) TimerEvent: {}
+[18.024347] (-) TimerEvent: {}
+[18.125130] (-) TimerEvent: {}
+[18.225830] (-) TimerEvent: {}
+[18.326516] (-) TimerEvent: {}
+[18.427215] (-) TimerEvent: {}
+[18.527912] (-) TimerEvent: {}
+[18.628621] (-) TimerEvent: {}
+[18.729360] (-) TimerEvent: {}
+[18.829996] (-) TimerEvent: {}
+[18.930690] (-) TimerEvent: {}
+[19.031386] (-) TimerEvent: {}
+[19.132085] (-) TimerEvent: {}
+[19.232845] (-) TimerEvent: {}
+[19.333551] (-) TimerEvent: {}
+[19.434249] (-) TimerEvent: {}
+[19.534924] (-) TimerEvent: {}
+[19.635612] (-) TimerEvent: {}
+[19.736310] (-) TimerEvent: {}
+[19.837009] (-) TimerEvent: {}
+[19.937699] (-) TimerEvent: {}
+[20.038390] (-) TimerEvent: {}
+[20.139083] (-) TimerEvent: {}
+[20.239787] (-) TimerEvent: {}
+[20.340485] (-) TimerEvent: {}
+[20.441249] (-) TimerEvent: {}
+[20.541965] (-) TimerEvent: {}
+[20.642683] (-) TimerEvent: {}
+[20.743380] (-) TimerEvent: {}
+[20.844068] (-) TimerEvent: {}
+[20.944793] (-) TimerEvent: {}
+[21.045470] (-) TimerEvent: {}
+[21.146165] (-) TimerEvent: {}
+[21.246861] (-) TimerEvent: {}
+[21.347557] (-) TimerEvent: {}
+[21.448281] (-) TimerEvent: {}
+[21.549080] (-) TimerEvent: {}
+[21.649786] (-) TimerEvent: {}
+[21.717974] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[21.749949] (-) TimerEvent: {}
+[21.850635] (-) TimerEvent: {}
+[21.951326] (-) TimerEvent: {}
+[22.011768] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[22.051492] (-) TimerEvent: {}
+[22.075959] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[22.076554] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[22.151704] (-) TimerEvent: {}
+[22.252343] (-) TimerEvent: {}
+[22.353077] (-) TimerEvent: {}
+[22.453729] (-) TimerEvent: {}
+[22.554448] (-) TimerEvent: {}
+[22.655197] (-) TimerEvent: {}
+[22.755932] (-) TimerEvent: {}
+[22.856653] (-) TimerEvent: {}
+[22.957345] (-) TimerEvent: {}
+[23.058023] (-) TimerEvent: {}
+[23.158749] (-) TimerEvent: {}
+[23.259486] (-) TimerEvent: {}
+[23.360231] (-) TimerEvent: {}
+[23.460991] (-) TimerEvent: {}
+[23.561664] (-) TimerEvent: {}
+[23.662402] (-) TimerEvent: {}
+[23.763130] (-) TimerEvent: {}
+[23.863799] (-) TimerEvent: {}
+[23.964572] (-) TimerEvent: {}
+[24.065283] (-) TimerEvent: {}
+[24.166992] (-) TimerEvent: {}
+[24.267724] (-) TimerEvent: {}
+[24.368435] (-) TimerEvent: {}
+[24.469200] (-) TimerEvent: {}
+[24.569929] (-) TimerEvent: {}
+[24.670660] (-) TimerEvent: {}
+[24.771466] (-) TimerEvent: {}
+[24.872191] (-) TimerEvent: {}
+[24.972955] (-) TimerEvent: {}
+[25.073644] (-) TimerEvent: {}
+[25.174327] (-) TimerEvent: {}
+[25.275115] (-) TimerEvent: {}
+[25.375799] (-) TimerEvent: {}
+[25.476586] (-) TimerEvent: {}
+[25.577604] (-) TimerEvent: {}
+[25.678228] (-) TimerEvent: {}
+[25.780270] (-) TimerEvent: {}
+[25.881768] (-) TimerEvent: {}
+[25.984888] (-) TimerEvent: {}
+[26.085755] (-) TimerEvent: {}
+[26.188895] (-) TimerEvent: {}
+[26.289604] (-) TimerEvent: {}
+[26.390374] (-) TimerEvent: {}
+[26.491126] (-) TimerEvent: {}
+[26.591886] (-) TimerEvent: {}
+[26.692599] (-) TimerEvent: {}
+[26.794022] (-) TimerEvent: {}
+[26.894754] (-) TimerEvent: {}
+[26.966834] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[26.967466] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/navigation/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[26.967903] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.968537] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[26.969074] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.996183] (-) TimerEvent: {}
+[27.027567] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[27.096455] (-) TimerEvent: {}
+[27.198600] (-) TimerEvent: {}
+[27.300455] (-) TimerEvent: {}
+[27.402059] (-) TimerEvent: {}
+[27.504848] (-) TimerEvent: {}
+[27.589051] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[27.605012] (-) TimerEvent: {}
+[27.705704] (-) TimerEvent: {}
+[27.806357] (-) TimerEvent: {}
+[27.907082] (-) TimerEvent: {}
+[27.909556] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[28.007298] (-) TimerEvent: {}
+[28.107941] (-) TimerEvent: {}
+[28.208653] (-) TimerEvent: {}
+[28.309375] (-) TimerEvent: {}
+[28.410060] (-) TimerEvent: {}
+[28.479476] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[28.510236] (-) TimerEvent: {}
+[28.515174] (serial) CommandEnded: {'returncode': 0}
+[28.610398] (-) TimerEvent: {}
+[28.637005] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[28.637931] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/navigation/build/serial'], 'cwd': '/home/navigation/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/serial'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[28.662774] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.664323] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.665550] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/lib/libserial.a\n'}
+[28.693570] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/include/serial/serial.h\n'}
+[28.710571] (-) TimerEvent: {}
+[28.721013] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/include/serial/v8stdint.h\n'}
+[28.749667] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/environment/library_path.sh\n'}
+[28.777769] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/environment/library_path.dsv\n'}
+[28.806719] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[28.810731] (-) TimerEvent: {}
+[28.837671] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[28.865624] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[28.894776] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[28.910906] (-) TimerEvent: {}
+[28.926157] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/environment/path.sh\n'}
+[28.953477] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/environment/path.dsv\n'}
+[28.980537] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/local_setup.bash\n'}
+[29.008129] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/local_setup.sh\n'}
+[29.011039] (-) TimerEvent: {}
+[29.037070] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/local_setup.zsh\n'}
+[29.065024] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/local_setup.dsv\n'}
+[29.091751] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/package.dsv\n'}
+[29.111283] (-) TimerEvent: {}
+[29.119367] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[29.147251] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.184602] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.213133] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[29.213709] (-) TimerEvent: {}
+[29.240221] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[29.267597] (serial) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/serial/share/serial/package.xml\n'}
+[29.301562] (serial) CommandEnded: {'returncode': 0}
+[29.313918] (-) TimerEvent: {}
+[29.416182] (-) TimerEvent: {}
+[29.519265] (-) TimerEvent: {}
+[29.621994] (-) TimerEvent: {}
+[29.722860] (-) TimerEvent: {}
+[29.824344] (-) TimerEvent: {}
+[29.926693] (-) TimerEvent: {}
+[30.027842] (-) TimerEvent: {}
+[30.051954] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[30.055830] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[30.128095] (-) TimerEvent: {}
+[30.230482] (-) TimerEvent: {}
+[30.332562] (-) TimerEvent: {}
+[30.433764] (-) TimerEvent: {}
+[30.476824] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[30.477557] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/navigation/src/diffdrive_arduino', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/navigation/install/diffdrive_arduino'], 'cwd': '/home/navigation/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/diffdrive_arduino'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[30.533975] (-) TimerEvent: {}
+[30.634682] (-) TimerEvent: {}
+[30.682271] (diffdrive_arduino) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[30.734854] (-) TimerEvent: {}
+[30.835666] (-) TimerEvent: {}
+[30.884439] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[30.908220] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[30.935895] (-) TimerEvent: {}
+[31.036540] (-) TimerEvent: {}
+[31.137374] (-) TimerEvent: {}
+[31.142545] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[31.177059] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[31.177878] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[31.179504] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[31.191225] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[31.237566] (-) TimerEvent: {}
+[31.338227] (-) TimerEvent: {}
+[31.438892] (-) TimerEvent: {}
+[31.466881] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[31.501010] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[31.502143] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[31.504015] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[31.522419] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.539106] (-) TimerEvent: {}
+[31.639715] (-) TimerEvent: {}
+[31.740434] (-) TimerEvent: {}
+[31.841135] (-) TimerEvent: {}
+[31.941771] (-) TimerEvent: {}
+[32.042423] (-) TimerEvent: {}
+[32.143062] (-) TimerEvent: {}
+[32.186189] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[32.244877] (-) TimerEvent: {}
+[32.345521] (-) TimerEvent: {}
+[32.446163] (-) TimerEvent: {}
+[32.463520] (diffdrive_arduino) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[32.546312] (-) TimerEvent: {}
+[32.646903] (-) TimerEvent: {}
+[32.652832] (diffdrive_arduino) StdoutLine: {'line': b'-- Found serial: 1.2.1 (/home/navigation/install/serial/share/serial/cmake)\n'}
+[32.670475] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[32.747066] (-) TimerEvent: {}
+[32.847709] (-) TimerEvent: {}
+[32.939002] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[32.947876] (-) TimerEvent: {}
+[32.975943] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[33.029272] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[33.048055] (-) TimerEvent: {}
+[33.116873] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.148240] (-) TimerEvent: {}
+[33.227368] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[33.248398] (-) TimerEvent: {}
+[33.349118] (-) TimerEvent: {}
+[33.449756] (-) TimerEvent: {}
+[33.550402] (-) TimerEvent: {}
+[33.651045] (-) TimerEvent: {}
+[33.753605] (-) TimerEvent: {}
+[33.854271] (-) TimerEvent: {}
+[33.954988] (-) TimerEvent: {}
+[34.055719] (-) TimerEvent: {}
+[34.156424] (-) TimerEvent: {}
+[34.257128] (-) TimerEvent: {}
+[34.357784] (-) TimerEvent: {}
+[34.458431] (-) TimerEvent: {}
+[34.559133] (-) TimerEvent: {}
+[34.659869] (-) TimerEvent: {}
+[34.760562] (-) TimerEvent: {}
+[34.861311] (-) TimerEvent: {}
+[34.961999] (-) TimerEvent: {}
+[35.062688] (-) TimerEvent: {}
+[35.164882] (-) TimerEvent: {}
+[35.265550] (-) TimerEvent: {}
+[35.366251] (-) TimerEvent: {}
+[35.466961] (-) TimerEvent: {}
+[35.567704] (-) TimerEvent: {}
+[35.668354] (-) TimerEvent: {}
+[35.769344] (-) TimerEvent: {}
+[35.869979] (-) TimerEvent: {}
+[35.970610] (-) TimerEvent: {}
+[36.071309] (-) TimerEvent: {}
+[36.171999] (-) TimerEvent: {}
+[36.272705] (-) TimerEvent: {}
+[36.373412] (-) TimerEvent: {}
+[36.474061] (-) TimerEvent: {}
+[36.574693] (-) TimerEvent: {}
+[36.675329] (-) TimerEvent: {}
+[36.742603] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[36.761526] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[36.775545] (-) TimerEvent: {}
+[36.876276] (-) TimerEvent: {}
+[36.970903] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[36.976377] (-) TimerEvent: {}
+[37.077117] (-) TimerEvent: {}
+[37.146096] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[37.156522] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[37.177280] (-) TimerEvent: {}
+[37.220655] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[37.265099] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[37.277445] (-) TimerEvent: {}
+[37.295349] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[37.331281] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[37.377605] (-) TimerEvent: {}
+[37.394291] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[37.477778] (-) TimerEvent: {}
+[37.580054] (-) TimerEvent: {}
+[37.653667] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[37.654447] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[37.680218] (-) TimerEvent: {}
+[37.781128] (-) TimerEvent: {}
+[37.881795] (-) TimerEvent: {}
+[37.922612] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[37.926323] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[37.981972] (-) TimerEvent: {}
+[38.084038] (-) TimerEvent: {}
+[38.184789] (-) TimerEvent: {}
+[38.285431] (-) TimerEvent: {}
+[38.386130] (-) TimerEvent: {}
+[38.486830] (-) TimerEvent: {}
+[38.587473] (-) TimerEvent: {}
+[38.688192] (-) TimerEvent: {}
+[38.751322] (diffdrive_arduino) StdoutLine: {'line': b'-- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[38.788371] (-) TimerEvent: {}
+[38.889105] (-) TimerEvent: {}
+[38.989784] (-) TimerEvent: {}
+[39.090420] (-) TimerEvent: {}
+[39.191128] (-) TimerEvent: {}
+[39.291792] (-) TimerEvent: {}
+[39.392457] (-) TimerEvent: {}
+[39.496892] (-) TimerEvent: {}
+[39.597559] (-) TimerEvent: {}
+[39.698201] (-) TimerEvent: {}
+[39.798892] (-) TimerEvent: {}
+[39.899518] (-) TimerEvent: {}
+[40.000126] (-) TimerEvent: {}
+[40.100860] (-) TimerEvent: {}
+[40.201541] (-) TimerEvent: {}
+[40.302187] (-) TimerEvent: {}
+[40.402820] (-) TimerEvent: {}
+[40.503474] (-) TimerEvent: {}
+[40.604185] (-) TimerEvent: {}
+[40.704928] (-) TimerEvent: {}
+[40.805552] (-) TimerEvent: {}
+[40.906290] (-) TimerEvent: {}
+[41.006903] (-) TimerEvent: {}
+[41.107557] (-) TimerEvent: {}
+[41.208297] (-) TimerEvent: {}
+[41.308963] (-) TimerEvent: {}
+[41.409610] (-) TimerEvent: {}
+[41.510326] (-) TimerEvent: {}
+[41.611027] (-) TimerEvent: {}
+[41.711698] (-) TimerEvent: {}
+[41.812397] (-) TimerEvent: {}
+[41.913102] (-) TimerEvent: {}
+[42.013751] (-) TimerEvent: {}
+[42.114481] (-) TimerEvent: {}
+[42.215121] (-) TimerEvent: {}
+[42.315844] (-) TimerEvent: {}
+[42.416565] (-) TimerEvent: {}
+[42.517268] (-) TimerEvent: {}
+[42.617932] (-) TimerEvent: {}
+[42.718589] (-) TimerEvent: {}
+[42.819264] (-) TimerEvent: {}
+[42.919918] (-) TimerEvent: {}
+[43.020568] (-) TimerEvent: {}
+[43.121263] (-) TimerEvent: {}
+[43.221998] (-) TimerEvent: {}
+[43.322720] (-) TimerEvent: {}
+[43.423368] (-) TimerEvent: {}
+[43.524116] (-) TimerEvent: {}
+[43.624878] (-) TimerEvent: {}
+[43.725507] (-) TimerEvent: {}
+[43.827154] (-) TimerEvent: {}
+[43.928007] (-) TimerEvent: {}
+[44.028641] (-) TimerEvent: {}
+[44.129330] (-) TimerEvent: {}
+[44.230004] (-) TimerEvent: {}
+[44.330673] (-) TimerEvent: {}
+[44.431335] (-) TimerEvent: {}
+[44.531985] (-) TimerEvent: {}
+[44.632662] (-) TimerEvent: {}
+[44.733396] (-) TimerEvent: {}
+[44.834071] (-) TimerEvent: {}
+[44.934757] (-) TimerEvent: {}
+[45.035436] (-) TimerEvent: {}
+[45.136176] (-) TimerEvent: {}
+[45.236879] (-) TimerEvent: {}
+[45.337533] (-) TimerEvent: {}
+[45.424716] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[45.437701] (-) TimerEvent: {}
+[45.538365] (-) TimerEvent: {}
+[45.639062] (-) TimerEvent: {}
+[45.671634] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[45.680250] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/navigation/build/diffdrive_arduino\n'}
+[45.723236] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[45.725286] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[45.727120] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navigation/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/navigation/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/diffdrive_arduino'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[45.739220] (-) TimerEvent: {}
+[45.843871] (-) TimerEvent: {}
+[45.914581] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[45.920762] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[45.936169] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o\x1b[0m\n'}
+[45.944073] (-) TimerEvent: {}
+[45.946167] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o\x1b[0m\n'}
+[46.044249] (-) TimerEvent: {}
+[46.146454] (-) TimerEvent: {}
+[46.248880] (-) TimerEvent: {}
+[46.349643] (-) TimerEvent: {}
+[46.450584] (-) TimerEvent: {}
+[46.551583] (-) TimerEvent: {}
+[46.653105] (-) TimerEvent: {}
+[46.755762] (-) TimerEvent: {}
+[46.856517] (-) TimerEvent: {}
+[46.957934] (-) TimerEvent: {}
+[47.058850] (-) TimerEvent: {}
+[47.161277] (-) TimerEvent: {}
+[47.264882] (-) TimerEvent: {}
+[47.365593] (-) TimerEvent: {}
+[47.467491] (-) TimerEvent: {}
+[47.568408] (-) TimerEvent: {}
+[47.672887] (-) TimerEvent: {}
+[47.776067] (-) TimerEvent: {}
+[47.877982] (-) TimerEvent: {}
+[47.980816] (-) TimerEvent: {}
+[48.081551] (-) TimerEvent: {}
+[48.183046] (-) TimerEvent: {}
+[48.283934] (-) TimerEvent: {}
+[48.384686] (-) TimerEvent: {}
+[48.486534] (-) TimerEvent: {}
+[48.592891] (-) TimerEvent: {}
+[48.696906] (-) TimerEvent: {}
+[48.727608] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o\x1b[0m\n'}
+[48.802602] (-) TimerEvent: {}
+[48.908927] (-) TimerEvent: {}
+[49.012146] (-) TimerEvent: {}
+[49.112894] (-) TimerEvent: {}
+[49.216911] (-) TimerEvent: {}
+[49.317689] (-) TimerEvent: {}
+[49.418531] (-) TimerEvent: {}
+[49.520018] (-) TimerEvent: {}
+[49.622373] (-) TimerEvent: {}
+[49.723920] (-) TimerEvent: {}
+[49.824944] (-) TimerEvent: {}
+[49.926000] (-) TimerEvent: {}
+[50.032386] (-) TimerEvent: {}
+[50.137919] (-) TimerEvent: {}
+[50.242433] (-) TimerEvent: {}
+[50.343180] (-) TimerEvent: {}
+[50.448898] (-) TimerEvent: {}
+[50.556885] (-) TimerEvent: {}
+[50.657602] (-) TimerEvent: {}
+[50.758370] (-) TimerEvent: {}
+[50.859261] (-) TimerEvent: {}
+[50.959981] (-) TimerEvent: {}
+[51.061929] (-) TimerEvent: {}
+[51.162946] (-) TimerEvent: {}
+[51.264122] (-) TimerEvent: {}
+[51.364930] (-) TimerEvent: {}
+[51.468886] (-) TimerEvent: {}
+[51.569638] (-) TimerEvent: {}
+[51.673011] (-) TimerEvent: {}
+[51.773788] (-) TimerEvent: {}
+[51.875584] (-) TimerEvent: {}
+[51.980908] (-) TimerEvent: {}
+[52.081634] (-) TimerEvent: {}
+[52.184311] (-) TimerEvent: {}
+[52.286952] (-) TimerEvent: {}
+[52.388099] (-) TimerEvent: {}
+[52.488898] (-) TimerEvent: {}
+[52.589748] (-) TimerEvent: {}
+[52.691098] (-) TimerEvent: {}
+[52.792409] (-) TimerEvent: {}
+[52.893938] (-) TimerEvent: {}
+[52.996888] (-) TimerEvent: {}
+[53.100899] (-) TimerEvent: {}
+[53.204896] (-) TimerEvent: {}
+[53.307380] (-) TimerEvent: {}
+[53.408194] (-) TimerEvent: {}
+[53.509326] (-) TimerEvent: {}
+[53.610236] (-) TimerEvent: {}
+[53.711920] (-) TimerEvent: {}
+[53.812999] (-) TimerEvent: {}
+[53.914868] (-) TimerEvent: {}
+[54.015811] (-) TimerEvent: {}
+[54.124794] (-) TimerEvent: {}
+[54.229389] (-) TimerEvent: {}
+[54.335011] (-) TimerEvent: {}
+[54.436283] (-) TimerEvent: {}
+[54.544893] (-) TimerEvent: {}
+[54.645617] (-) TimerEvent: {}
+[54.752892] (-) TimerEvent: {}
+[54.856898] (-) TimerEvent: {}
+[54.960890] (-) TimerEvent: {}
+[55.064895] (-) TimerEvent: {}
+[55.165614] (-) TimerEvent: {}
+[55.266348] (-) TimerEvent: {}
+[55.367283] (-) TimerEvent: {}
+[55.468124] (-) TimerEvent: {}
+[55.569027] (-) TimerEvent: {}
+[55.671595] (-) TimerEvent: {}
+[55.773408] (-) TimerEvent: {}
+[55.874300] (-) TimerEvent: {}
+[55.975950] (-) TimerEvent: {}
+[56.084322] (-) TimerEvent: {}
+[56.185099] (-) TimerEvent: {}
+[56.287692] (-) TimerEvent: {}
+[56.390565] (-) TimerEvent: {}
+[56.494417] (-) TimerEvent: {}
+[56.595996] (-) TimerEvent: {}
+[56.697927] (-) TimerEvent: {}
+[56.800317] (-) TimerEvent: {}
+[56.901173] (-) TimerEvent: {}
+[57.002022] (-) TimerEvent: {}
+[57.104893] (-) TimerEvent: {}
+[57.205596] (-) TimerEvent: {}
+[57.307627] (-) TimerEvent: {}
+[57.409300] (-) TimerEvent: {}
+[57.510792] (-) TimerEvent: {}
+[57.613145] (-) TimerEvent: {}
+[57.715895] (-) TimerEvent: {}
+[57.824334] (-) TimerEvent: {}
+[57.928936] (-) TimerEvent: {}
+[58.036914] (-) TimerEvent: {}
+[58.144918] (-) TimerEvent: {}
+[58.245659] (-) TimerEvent: {}
+[58.354898] (-) TimerEvent: {}
+[58.459631] (-) TimerEvent: {}
+[58.562189] (-) TimerEvent: {}
+[58.665605] (-) TimerEvent: {}
+[58.772892] (-) TimerEvent: {}
+[58.873765] (-) TimerEvent: {}
+[58.976922] (-) TimerEvent: {}
+[59.080889] (-) TimerEvent: {}
+[59.181596] (-) TimerEvent: {}
+[59.284050] (-) TimerEvent: {}
+[59.384878] (-) TimerEvent: {}
+[59.485531] (-) TimerEvent: {}
+[59.588974] (-) TimerEvent: {}
+[59.697218] (-) TimerEvent: {}
+[59.797892] (-) TimerEvent: {}
+[59.898649] (-) TimerEvent: {}
+[59.999403] (-) TimerEvent: {}
+[60.100169] (-) TimerEvent: {}
+[60.201442] (-) TimerEvent: {}
+[60.303136] (-) TimerEvent: {}
+[60.403827] (-) TimerEvent: {}
+[60.504598] (-) TimerEvent: {}
+[60.605312] (-) TimerEvent: {}
+[60.705985] (-) TimerEvent: {}
+[60.806668] (-) TimerEvent: {}
+[60.907362] (-) TimerEvent: {}
+[61.008128] (-) TimerEvent: {}
+[61.108890] (-) TimerEvent: {}
+[61.209583] (-) TimerEvent: {}
+[61.312917] (-) TimerEvent: {}
+[61.413658] (-) TimerEvent: {}
+[61.514374] (-) TimerEvent: {}
+[61.620898] (-) TimerEvent: {}
+[61.724975] (-) TimerEvent: {}
+[61.825749] (-) TimerEvent: {}
+[61.930024] (-) TimerEvent: {}
+[62.030722] (-) TimerEvent: {}
+[62.131443] (-) TimerEvent: {}
+[62.234240] (-) TimerEvent: {}
+[62.336987] (-) TimerEvent: {}
+[62.437696] (-) TimerEvent: {}
+[62.538440] (-) TimerEvent: {}
+[62.639127] (-) TimerEvent: {}
+[62.739816] (-) TimerEvent: {}
+[62.840569] (-) TimerEvent: {}
+[62.948944] (-) TimerEvent: {}
+[63.049683] (-) TimerEvent: {}
+[63.150446] (-) TimerEvent: {}
+[63.253018] (-) TimerEvent: {}
+[63.353767] (-) TimerEvent: {}
+[63.456641] (-) TimerEvent: {}
+[63.557453] (-) TimerEvent: {}
+[63.659703] (-) TimerEvent: {}
+[63.764907] (-) TimerEvent: {}
+[63.867975] (-) TimerEvent: {}
+[63.968680] (-) TimerEvent: {}
+[64.072221] (-) TimerEvent: {}
+[64.176886] (-) TimerEvent: {}
+[64.277577] (-) TimerEvent: {}
+[64.378226] (-) TimerEvent: {}
+[64.478987] (-) TimerEvent: {}
+[64.579728] (-) TimerEvent: {}
+[64.680515] (-) TimerEvent: {}
+[64.781290] (-) TimerEvent: {}
+[64.881948] (-) TimerEvent: {}
+[64.982669] (-) TimerEvent: {}
+[65.083390] (-) TimerEvent: {}
+[65.184113] (-) TimerEvent: {}
+[65.284946] (-) TimerEvent: {}
+[65.385666] (-) TimerEvent: {}
+[65.486393] (-) TimerEvent: {}
+[65.587094] (-) TimerEvent: {}
+[65.687797] (-) TimerEvent: {}
+[65.788514] (-) TimerEvent: {}
+[65.889214] (-) TimerEvent: {}
+[65.989875] (-) TimerEvent: {}
+[66.086444] (diffdrive_arduino) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[66.090072] (-) TimerEvent: {}
+[66.190725] (-) TimerEvent: {}
+[66.292002] (-) TimerEvent: {}
+[66.392826] (-) TimerEvent: {}
+[66.493541] (-) TimerEvent: {}
+[66.594246] (-) TimerEvent: {}
+[66.631011] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[66.694493] (-) TimerEvent: {}
+[66.795326] (-) TimerEvent: {}
+[66.896091] (-) TimerEvent: {}
+[66.960107] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target fake_robot\n'}
+[66.996334] (-) TimerEvent: {}
+[67.097222] (-) TimerEvent: {}
+[67.197940] (-) TimerEvent: {}
+[67.298685] (-) TimerEvent: {}
+[67.399380] (-) TimerEvent: {}
+[67.500168] (-) TimerEvent: {}
+[67.523474] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[67.561550] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[67.600321] (-) TimerEvent: {}
+[67.672113] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[67.675321] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/navigation/build/diffdrive_arduino'], 'cwd': '/home/navigation/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'nano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/navigation/install/diffdrive_arduino/lib:/home/navigation/install/serial/lib:/home/deserb/install/diffdrive_arduino/lib:/home/deserb/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/navigation/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/navigation/install:/home/deserb/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/navigation/install/diffdrive_arduino:/home/navigation/install/serial:/home/navigation/install/nav2_gps_waypoint_follower_demo:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/navigation/build/diffdrive_arduino'), ('PYTHONPATH', '/home/navigation/build/nav2_gps_waypoint_follower_demo:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble')]), 'shell': False}
+[67.698895] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[67.700380] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[67.702022] (-) TimerEvent: {}
+[67.705799] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[67.734865] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[67.762719] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[67.790607] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[67.802260] (-) TimerEvent: {}
+[67.818816] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[67.846329] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc\n'}
+[67.873939] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[67.901222] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[67.902386] (-) TimerEvent: {}
+[67.929274] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[67.958088] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[67.985904] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[68.002625] (-) TimerEvent: {}
+[68.014105] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[68.041920] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[68.068927] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[68.096277] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[68.102920] (-) TimerEvent: {}
+[68.123849] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[68.151186] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[68.178255] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[68.203146] (-) TimerEvent: {}
+[68.205697] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[68.234151] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[68.262422] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[68.290006] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[68.303366] (-) TimerEvent: {}
+[68.319906] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[68.347344] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[68.374665] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[68.402161] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[68.403474] (-) TimerEvent: {}
+[68.430381] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[68.458520] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[68.491144] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[68.503654] (-) TimerEvent: {}
+[68.604371] (-) TimerEvent: {}
+[68.705889] (-) TimerEvent: {}
+[68.806847] (-) TimerEvent: {}
+[68.909159] (-) TimerEvent: {}
+[69.009762] (-) TimerEvent: {}
+[69.112176] (-) TimerEvent: {}
+[69.214419] (-) TimerEvent: {}
+[69.316355] (-) TimerEvent: {}
+[69.360803] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[69.365297] (-) EventReactorShutdown: {}

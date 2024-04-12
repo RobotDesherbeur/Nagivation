@@ -1,0 +1,71 @@
+[0.886s] Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/deserb -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/deserb
+[1.110s] -- The C compiler identification is GNU 11.4.0
+[1.328s] -- The CXX compiler identification is GNU 11.4.0
+[1.352s] -- Detecting C compiler ABI info
+[1.641s] -- Detecting C compiler ABI info - done
+[1.675s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.675s] -- Detecting C compile features
+[1.677s] -- Detecting C compile features - done
+[1.689s] -- Detecting CXX compiler ABI info
+[2.005s] -- Detecting CXX compiler ABI info - done
+[2.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.041s] -- Detecting CXX compile features
+[2.043s] -- Detecting CXX compile features - done
+[2.061s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.772s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.069s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.307s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.857s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.877s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.882s] -- Added test 'lint_cmake' to check CMake code style
+[3.885s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.897s] -- Added test 'xmllint' to check XML markup files
+[3.905s] -- Configuring done
+[3.920s] -- Generating done
+[3.938s] -- Build files have been written to: /home/navigation/build/deserb
+[3.942s] Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/deserb -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/deserb
+[3.949s] Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
+[4.085s] Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
+[4.186s] Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb
+[4.216s] -- Install configuration: ""
+[4.217s] -- Execute custom install script
+[4.219s] -- Symlinking: /home/navigation/install/deserb/share/deserb/config/deserb_config.rviz
+[4.248s] -- Symlinking: /home/navigation/install/deserb/share/deserb/config/empty.yaml
+[4.276s] -- Symlinking: /home/navigation/install/deserb/share/deserb/config/gaz_ros2_ctl_use_sim.yaml
+[4.307s] -- Symlinking: /home/navigation/install/deserb/share/deserb/config/joystick.yaml
+[4.336s] -- Symlinking: /home/navigation/install/deserb/share/deserb/config/my_controllers.yaml
+[4.366s] -- Symlinking: /home/navigation/install/deserb/share/deserb/config/twist_mux.yaml
+[4.395s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/cameras.xacro
+[4.424s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/depth_camera.xacro
+[4.453s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/gazebo_control.xacro
+[4.485s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/gps.xacro
+[4.527s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/imu.xacro
+[4.556s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/lidar.xacro
+[4.585s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/robot.urdf.xacro
+[4.633s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/robot_core_simple.xacro
+[4.685s] -- Symlinking: /home/navigation/install/deserb/share/deserb/description/ros2_control.xacro
+[4.752s] -- Symlinking: /home/navigation/install/deserb/share/deserb/launch/__pycache__/launch_sim.launch.cpython-310.pyc
+[4.827s] -- Symlinking: /home/navigation/install/deserb/share/deserb/launch/joystick.launch.py
+[4.933s] -- Symlinking: /home/navigation/install/deserb/share/deserb/launch/launch_robot.launch.py
+[5.019s] -- Symlinking: /home/navigation/install/deserb/share/deserb/launch/launch_sim.launch.py
+[5.088s] -- Symlinking: /home/navigation/install/deserb/share/deserb/launch/rsp.launch.py
+[5.152s] -- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/cone.world
+[5.227s] -- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/empty.world
+[5.308s] -- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/farm.world
+[5.374s] -- Symlinking: /home/navigation/install/deserb/share/deserb/worlds/sonoma_raceway.world
+[5.452s] -- Symlinking: /home/navigation/install/deserb/share/ament_index/resource_index/package_run_dependencies/deserb
+[5.534s] -- Symlinking: /home/navigation/install/deserb/share/ament_index/resource_index/parent_prefix_path/deserb
+[5.612s] -- Symlinking: /home/navigation/install/deserb/share/deserb/environment/ament_prefix_path.sh
+[5.694s] -- Symlinking: /home/navigation/install/deserb/share/deserb/environment/ament_prefix_path.dsv
+[5.760s] -- Symlinking: /home/navigation/install/deserb/share/deserb/environment/path.sh
+[5.828s] -- Symlinking: /home/navigation/install/deserb/share/deserb/environment/path.dsv
+[5.902s] -- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.bash
+[5.975s] -- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.sh
+[6.052s] -- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.zsh
+[6.130s] -- Symlinking: /home/navigation/install/deserb/share/deserb/local_setup.dsv
+[6.196s] -- Symlinking: /home/navigation/install/deserb/share/deserb/package.dsv
+[6.311s] -- Symlinking: /home/navigation/install/deserb/share/ament_index/resource_index/packages/deserb
+[6.347s] -- Symlinking: /home/navigation/install/deserb/share/deserb/cmake/deserbConfig.cmake
+[6.380s] -- Symlinking: /home/navigation/install/deserb/share/deserb/cmake/deserbConfig-version.cmake
+[6.458s] -- Symlinking: /home/navigation/install/deserb/share/deserb/package.xml
+[6.542s] Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb

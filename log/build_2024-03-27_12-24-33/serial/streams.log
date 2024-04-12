@@ -1,0 +1,40 @@
+[1.394s] Invoking command in '/home/navigation/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/serial -- -j4 -l4
+[1.561s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.562s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[1.564s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.616s] [ 14%] Built target gtest_main
+[1.616s] [ 28%] Built target gtest
+[1.625s] [ 57%] Built target serial
+[1.665s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[1.671s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[1.734s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[1.737s] [ 71%] Built target serial_example
+[1.748s] [ 85%] Built target serial-test
+[1.799s] [100%] Built target serial-test-timer
+[3.258s] Invoked command in '/home/navigation/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/serial -- -j4 -l4
+[3.478s] Invoking command in '/home/navigation/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/serial
+[3.558s] -- Install configuration: ""
+[3.574s] -- Execute custom install script
+[3.574s] -- Up-to-date symlink: /home/navigation/install/serial/lib/libserial.a
+[3.574s] -- Up-to-date symlink: /home/navigation/install/serial/include/serial/serial.h
+[3.575s] -- Up-to-date symlink: /home/navigation/install/serial/include/serial/v8stdint.h
+[3.575s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/environment/library_path.sh
+[3.576s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/environment/library_path.dsv
+[3.576s] -- Up-to-date symlink: /home/navigation/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.576s] -- Up-to-date symlink: /home/navigation/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.594s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.594s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.599s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/environment/path.sh
+[3.599s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/environment/path.dsv
+[3.600s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/local_setup.bash
+[3.600s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/local_setup.sh
+[3.601s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/local_setup.zsh
+[3.601s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/local_setup.dsv
+[3.602s] -- Symlinking: /home/navigation/install/serial/share/serial/package.dsv
+[3.632s] -- Up-to-date symlink: /home/navigation/install/serial/share/ament_index/resource_index/packages/serial
+[3.633s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.635s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.636s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/cmake/serialConfig.cmake
+[3.636s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.637s] -- Up-to-date symlink: /home/navigation/install/serial/share/serial/package.xml
+[3.894s] Invoked command in '/home/navigation/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/serial

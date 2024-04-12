@@ -1,0 +1,339 @@
+[5.195s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build', '--symlink-install']
+[5.195s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7677e2f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7677d660>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7677d660>>)
+[5.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.418s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.418s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/navigation'
+[5.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.419s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.420s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.530s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.531s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.531s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.531s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.532s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.532s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.532s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.532s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.533s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.533s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.534s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.536s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extensions ['ignore', 'ignore_ament_install']
+[5.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extension 'ignore'
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extension 'ignore_ament_install'
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extensions ['colcon_pkg']
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extension 'colcon_pkg'
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extensions ['colcon_meta']
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extension 'colcon_meta'
+[5.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extensions ['ros']
+[5.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/deserb) by extension 'ros'
+[5.547s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deserb' with type 'ros.ament_cmake' and name 'deserb'
+[5.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[5.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[5.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[5.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[5.554s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extension 'ignore'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extension 'ignore_ament_install'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extensions ['colcon_pkg']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extension 'colcon_pkg'
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extensions ['colcon_meta']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extension 'colcon_meta'
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extensions ['ros']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_gps_waypoint_follower_demo) by extension 'ros'
+[5.560s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_gps_waypoint_follower_demo' with type 'ros.ament_python' and name 'nav2_gps_waypoint_follower_demo'
+[5.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[5.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[5.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[5.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[5.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[5.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[5.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[5.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[5.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[5.564s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[5.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.944s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'cmake_args' from command line to 'None'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'cmake_target' from command line to 'None'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'cmake_clean_cache' from command line to 'False'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'cmake_clean_first' from command line to 'False'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'cmake_force_configure' from command line to 'False'
+[5.945s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'ament_cmake_args' from command line to 'None'
+[5.946s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'catkin_cmake_args' from command line to 'None'
+[5.946s] Level 5:colcon.colcon_core.verb:set package 'deserb' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.946s] DEBUG:colcon.colcon_core.verb:Building package 'deserb' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navigation/build/deserb', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navigation/install/deserb', 'merge_install': False, 'path': '/home/navigation/src/deserb', 'symlink_install': True, 'test_result_base': None}
+[6.018s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_args' from command line to 'None'
+[6.019s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_target' from command line to 'None'
+[6.019s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.019s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[6.019s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_clean_first' from command line to 'False'
+[6.019s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'cmake_force_configure' from command line to 'False'
+[6.019s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'ament_cmake_args' from command line to 'None'
+[6.019s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[6.020s] Level 5:colcon.colcon_core.verb:set package 'nav2_gps_waypoint_follower_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.020s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_gps_waypoint_follower_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navigation/build/nav2_gps_waypoint_follower_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navigation/install/nav2_gps_waypoint_follower_demo', 'merge_install': False, 'path': '/home/navigation/src/nav2_gps_waypoint_follower_demo', 'symlink_install': True, 'test_result_base': None}
+[6.094s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[6.095s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[6.095s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.095s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[6.095s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[6.095s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[6.095s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[6.096s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[6.096s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.096s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navigation/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navigation/install/serial', 'merge_install': False, 'path': '/home/navigation/src/serial', 'symlink_install': True, 'test_result_base': None}
+[6.173s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[6.173s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[6.173s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.173s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[6.174s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[6.174s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[6.174s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[6.174s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[6.174s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.174s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navigation/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navigation/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/navigation/src/diffdrive_arduino', 'symlink_install': True, 'test_result_base': None}
+[6.246s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navigation/src/serial' with build type 'ament_cmake'
+[6.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navigation/src/serial'
+[6.406s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.502s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/navigation/install/diffdrive_arduino' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.502s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/navigation/install/serial' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.503s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/navigation/install/nav2_gps_waypoint_follower_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.503s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/navigation/install/deserb' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[6.504s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/navigation/install/diffdrive_arduino' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.504s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/navigation/install/serial' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.505s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/navigation/install/deserb' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[6.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navigation/src/deserb' with build type 'ament_cmake'
+[6.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navigation/src/deserb'
+[6.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.189s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/navigation/src/nav2_gps_waypoint_follower_demo' with build type 'ament_python'
+[7.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gps_waypoint_follower_demo', 'ament_prefix_path')
+[7.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.ps1'
+[7.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.dsv'
+[7.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/ament_prefix_path.sh'
+[7.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/serial
+[7.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/deserb -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/deserb
+[9.124s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/navigation/src/nav2_gps_waypoint_follower_demo'
+[9.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/deserb -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/deserb
+[10.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
+[10.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
+[10.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb
+[11.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/serial
+[11.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/serial -- -j4 -l4
+[11.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/nav2_gps_waypoint_follower_demo': PYTHONPATH=/home/navigation/build/nav2_gps_waypoint_follower_demo/prefix_override:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/navigation/build/nav2_gps_waypoint_follower_demo/build --no-deps install_data
+[13.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deserb)
+[13.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb
+[13.576s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb' for CMake module files
+[13.579s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb' for CMake config files
+[13.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('deserb', 'cmake_prefix_path')
+[13.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/deserb/share/deserb/hook/cmake_prefix_path.ps1'
+[13.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/deserb/share/deserb/hook/cmake_prefix_path.dsv'
+[13.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/deserb/share/deserb/hook/cmake_prefix_path.sh'
+[13.823s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/bin'
+[13.823s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/lib/pkgconfig/deserb.pc'
+[13.825s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/lib/python3.10/site-packages'
+[13.826s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/bin'
+[13.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.ps1'
+[13.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navigation/install/deserb/share/deserb/package.dsv'
+[13.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.sh'
+[13.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.bash'
+[13.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.zsh'
+[13.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navigation/install/deserb/share/colcon-core/packages/deserb)
+[14.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deserb)
+[14.704s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb' for CMake module files
+[14.707s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb' for CMake config files
+[14.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('deserb', 'cmake_prefix_path')
+[14.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/deserb/share/deserb/hook/cmake_prefix_path.ps1'
+[14.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/deserb/share/deserb/hook/cmake_prefix_path.dsv'
+[14.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/deserb/share/deserb/hook/cmake_prefix_path.sh'
+[14.874s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/bin'
+[14.874s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/lib/pkgconfig/deserb.pc'
+[14.876s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/lib/python3.10/site-packages'
+[14.878s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/deserb/bin'
+[14.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.ps1'
+[14.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navigation/install/deserb/share/deserb/package.dsv'
+[14.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.sh'
+[14.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.bash'
+[15.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/deserb/share/deserb/package.zsh'
+[15.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navigation/install/deserb/share/colcon-core/packages/deserb)
+[16.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gps_waypoint_follower_demo', 'pythonpath_develop')
+[16.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/nav2_gps_waypoint_follower_demo' returned '0': PYTHONPATH=/home/navigation/build/nav2_gps_waypoint_follower_demo/prefix_override:/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/navigation/build/nav2_gps_waypoint_follower_demo/build --no-deps install_data
+[16.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/build/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath_develop.ps1'
+[16.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/build/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath_develop.dsv'
+[16.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/build/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath_develop.sh'
+[16.519s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/nav2_gps_waypoint_follower_demo' for CMake module files
+[16.522s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/nav2_gps_waypoint_follower_demo' for CMake config files
+[16.526s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/nav2_gps_waypoint_follower_demo/lib'
+[16.527s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/nav2_gps_waypoint_follower_demo/bin'
+[16.528s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/pkgconfig/nav2_gps_waypoint_follower_demo.pc'
+[16.529s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/nav2_gps_waypoint_follower_demo/lib/python3.10/site-packages'
+[16.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_gps_waypoint_follower_demo', 'pythonpath')
+[16.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath.ps1'
+[16.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath.dsv'
+[16.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/hook/pythonpath.sh'
+[16.664s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/nav2_gps_waypoint_follower_demo/bin'
+[16.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_gps_waypoint_follower_demo)
+[16.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.ps1'
+[16.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.dsv'
+[16.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.sh'
+[16.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.bash'
+[16.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/nav2_gps_waypoint_follower_demo/share/nav2_gps_waypoint_follower_demo/package.zsh'
+[16.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navigation/install/nav2_gps_waypoint_follower_demo/share/colcon-core/packages/nav2_gps_waypoint_follower_demo)
+[34.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/serial -- -j4 -l4
+[34.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/serial
+[35.621s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[35.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/serial
+[35.703s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial' for CMake module files
+[35.705s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial' for CMake config files
+[35.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[35.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[35.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[35.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[35.802s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/lib'
+[35.803s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/bin'
+[35.803s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/lib/pkgconfig/serial.pc'
+[35.804s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/lib/python3.10/site-packages'
+[35.806s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/bin'
+[35.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.ps1'
+[35.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navigation/install/serial/share/serial/package.dsv'
+[35.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.sh'
+[35.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.bash'
+[35.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.zsh'
+[35.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navigation/install/serial/share/colcon-core/packages/serial)
+[36.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[36.188s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial' for CMake module files
+[36.191s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial' for CMake config files
+[36.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[36.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[36.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[36.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[36.278s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/lib'
+[36.278s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/bin'
+[36.279s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/lib/pkgconfig/serial.pc'
+[36.280s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/lib/python3.10/site-packages'
+[36.281s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/serial/bin'
+[36.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.ps1'
+[36.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navigation/install/serial/share/serial/package.dsv'
+[36.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.sh'
+[36.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.bash'
+[36.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/serial/share/serial/package.zsh'
+[36.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navigation/install/serial/share/colcon-core/packages/serial)
+[36.371s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navigation/src/diffdrive_arduino' with build type 'ament_cmake'
+[36.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navigation/src/diffdrive_arduino'
+[36.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/diffdrive_arduino
+[52.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake /home/navigation/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/navigation/install/diffdrive_arduino
+[52.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/diffdrive_arduino -- -j4 -l4
+[73.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/diffdrive_arduino -- -j4 -l4
+[73.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navigation/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/diffdrive_arduino
+[74.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[74.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navigation/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/navigation/install/serial:/home/navigation/install/diffdrive_arduino:/home/navigation/install/deserb:/home/deserb/install/diffdrive_arduino:/home/deserb/install/serial:/home/deserb/install/deserb:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/diffdrive_arduino
+[74.911s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino' for CMake module files
+[74.914s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino' for CMake config files
+[74.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[74.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[74.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[74.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[74.998s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/lib'
+[74.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[75.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[75.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[75.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[75.080s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/bin'
+[75.081s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[75.082s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/lib/python3.10/site-packages'
+[75.083s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/bin'
+[75.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[75.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[75.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[75.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[75.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[75.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navigation/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[75.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[75.424s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino' for CMake module files
+[75.427s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino' for CMake config files
+[75.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[75.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[75.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[75.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[75.510s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/lib'
+[75.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[75.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[75.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[75.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[75.590s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/bin'
+[75.591s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[75.592s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/lib/python3.10/site-packages'
+[75.593s] Level 1:colcon.colcon_core.environment:checking '/home/navigation/install/diffdrive_arduino/bin'
+[75.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[75.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[75.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[75.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[75.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/navigation/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[75.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navigation/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[75.681s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[75.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[75.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[75.683s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[75.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[75.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[75.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[75.803s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[75.810s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[75.810s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[75.887s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navigation/install/local_setup.ps1'
+[75.891s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/navigation/install/_local_setup_util_ps1.py'
+[75.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navigation/install/setup.ps1'
+[75.979s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navigation/install/local_setup.sh'
+[75.981s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/navigation/install/_local_setup_util_sh.py'
+[75.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navigation/install/setup.sh'
+[76.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navigation/install/local_setup.bash'
+[76.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navigation/install/setup.bash'
+[76.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navigation/install/local_setup.zsh'
+[76.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navigation/install/setup.zsh'

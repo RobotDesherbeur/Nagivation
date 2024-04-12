@@ -1,0 +1,45 @@
+[1.198s] Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
+[3.368s] Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
+[3.647s] Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb
+[3.743s] -- Install configuration: ""
+[3.747s] -- Execute custom install script
+[3.748s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/config/deserb_config.rviz
+[3.749s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/config/empty.yaml
+[3.753s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/config/gaz_ros2_ctl_use_sim.yaml
+[3.755s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/config/joystick.yaml
+[3.757s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/config/my_controllers.yaml
+[3.758s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/config/twist_mux.yaml
+[3.763s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/cameras.xacro
+[3.765s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/depth_camera.xacro
+[3.775s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/gazebo_control.xacro
+[3.776s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/gps.xacro
+[3.779s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/imu.xacro
+[3.780s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/lidar.xacro
+[3.781s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/robot.urdf.xacro
+[3.785s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/robot_core_simple.xacro
+[3.785s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/description/ros2_control.xacro
+[3.791s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/launch/__pycache__/launch_sim.launch.cpython-310.pyc
+[3.792s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/launch/joystick.launch.py
+[3.794s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/launch/launch_robot.launch.py
+[3.795s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/launch/launch_sim.launch.py
+[3.795s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/launch/rsp.launch.py
+[3.796s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/worlds/cone.world
+[3.803s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/worlds/empty.world
+[3.807s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/worlds/farm.world
+[3.809s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/worlds/sonoma_raceway.world
+[3.820s] -- Up-to-date symlink: /home/navigation/install/deserb/share/ament_index/resource_index/package_run_dependencies/deserb
+[3.821s] -- Up-to-date symlink: /home/navigation/install/deserb/share/ament_index/resource_index/parent_prefix_path/deserb
+[3.823s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/environment/ament_prefix_path.sh
+[3.824s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/environment/ament_prefix_path.dsv
+[3.837s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/environment/path.sh
+[3.838s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/environment/path.dsv
+[3.839s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/local_setup.bash
+[3.840s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/local_setup.sh
+[3.842s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/local_setup.zsh
+[3.843s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/local_setup.dsv
+[3.844s] -- Symlinking: /home/navigation/install/deserb/share/deserb/package.dsv
+[3.931s] -- Up-to-date symlink: /home/navigation/install/deserb/share/ament_index/resource_index/packages/deserb
+[3.934s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/cmake/deserbConfig.cmake
+[3.936s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/cmake/deserbConfig-version.cmake
+[3.937s] -- Up-to-date symlink: /home/navigation/install/deserb/share/deserb/package.xml
+[3.949s] Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb

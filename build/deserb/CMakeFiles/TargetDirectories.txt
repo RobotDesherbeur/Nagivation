@@ -1,0 +1,9 @@
+/home/navigation/build/deserb/CMakeFiles/uninstall.dir
+/home/navigation/build/deserb/CMakeFiles/deserb_uninstall.dir
+/home/navigation/build/deserb/CMakeFiles/test.dir
+/home/navigation/build/deserb/CMakeFiles/edit_cache.dir
+/home/navigation/build/deserb/CMakeFiles/rebuild_cache.dir
+/home/navigation/build/deserb/CMakeFiles/list_install_components.dir
+/home/navigation/build/deserb/CMakeFiles/install.dir
+/home/navigation/build/deserb/CMakeFiles/install/local.dir
+/home/navigation/build/deserb/CMakeFiles/install/strip.dir
