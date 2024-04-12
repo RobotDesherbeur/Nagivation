@@ -1,1 +1,0 @@
-/home/navigation/src/serial/include/serial/serial.h

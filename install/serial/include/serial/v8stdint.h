@@ -1,1 +1,0 @@
-/home/navigation/src/serial/include/serial/v8stdint.h

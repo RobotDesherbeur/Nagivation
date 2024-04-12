@@ -1,1 +1,0 @@
-/home/navigation/src/nav2_gps_waypoint_follower_demo/launch/mapviz.launch.py

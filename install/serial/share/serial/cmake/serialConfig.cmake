@@ -1,1 +1,0 @@
-/home/navigation/build/serial/ament_cmake_core/serialConfig.cmake

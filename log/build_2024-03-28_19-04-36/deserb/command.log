@@ -1,4 +1,0 @@
-Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
-Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --build /home/navigation/build/deserb -- -j4 -l4
-Invoking command in '/home/navigation/build/deserb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb
-Invoked command in '/home/navigation/build/deserb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navigation/install/nav2_gps_waypoint_follower_demo:/opt/ros/humble /usr/bin/cmake --install /home/navigation/build/deserb

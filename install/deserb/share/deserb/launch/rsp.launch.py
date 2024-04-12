@@ -1,1 +1,0 @@
-/home/navigation/src/deserb/launch/rsp.launch.py
